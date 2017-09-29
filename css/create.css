@@ -1,0 +1,224 @@
+
+.margin_r
+{
+	margin-right: 0px;
+}
+
+.margin_l
+{
+	margin-left: 0px;
+}
+
+.margin_t
+{
+	margin-top:0px;
+}
+
+.margin_b
+{
+	margin-bottom: 0px;
+}
+
+
+
+section 
+{
+	height: 1250px;
+}
+
+section ul
+{
+	height: 22px
+}
+
+section ul li
+{
+	float: left;
+	margin-left: 32px;
+}
+
+section ul li:first-child
+{
+	margin-left: 0px;
+	list-style-type: none
+}
+
+section ul li a
+{
+	text-decoration: none;
+	color:#9b9b9b;
+}
+
+section h2
+{
+	font-size: 72px
+}
+
+
+section .info
+{
+	width: 50%;
+	height: 628px;
+    /* background-color: red  */
+    position: relative;
+}
+
+section .info .box_info_1 
+{
+     /*  background-color: green   */
+}
+
+section .info .box_info_2
+{
+     /* background-color: blue */  
+}
+
+section .info .box_info_1:before {
+    content: "";
+    position: absolute;
+    bottom: 454px;
+    height: 14px;
+    width: 1246px;
+    background-color: #ad0000;
+    right: 0px;
+}
+
+section .info .box_info_2 h3
+{
+	font-size: 36px
+}
+
+section .info .box_info_1 p , section .info .box_info_2 p
+{
+	margin-top: 34px;
+	font-size: 14px
+}
+
+section .info .box_info_2 .intend
+{
+	margin-top: 34px;
+}
+
+ 
+
+section .info .box_info_2 button 
+{
+	width: 146px;
+	height: 48px;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 18px
+}
+
+section .info .box_info_2 a
+{
+	margin-left: 32px;
+	color:black;
+}
+
+section .info .box_info_1 p:last-child
+{
+	margin-bottom: 34px;
+}
+
+section .mac {
+    height: 382px;
+    margin-top: 60px;
+    width: 100%;
+    padding-top:61px;
+}
+
+
+section .mac .show_work
+{
+	width: 514px;
+	height: 382px;
+	background-image:url(../img/ari_1.jpg);
+	position: relative;
+	color:white;
+}
+
+section .show_work:before
+{
+	content:"";
+	width:374px;
+	height: 380px;
+	background-image:url(../img/ari_2.jpg);
+	display: inline-block;
+	left:-374px;
+	top:2px;
+	position: absolute;
+}
+
+ section .show_work h4 ,
+ section .show_work p ,
+ section .show_work button ,
+{
+	margin-left: 3px
+}
+
+section .mac .show_work h4 
+{
+	padding-top: 83px;
+	font-size: 24px
+}
+
+section .mac .show_work p
+{
+	padding-top: 29px;
+	font-size: 14px;
+}
+
+section .mac .show_work .button
+{
+	height: 49px;
+	width:191px;
+	display: inline-block;
+	 line-height: 45px;
+	 border: 1px solid white;
+	 text-align: center;
+	 text-decoration: none;
+	 color:white;
+	 margin-top:98px;
+}
+
+section .mac form
+{
+	width: 565px;
+	height: 311px;
+	margin-right: 3px;
+	margin-top:50px;
+}
+
+section .mac form h4
+{
+	font-size: 36px;
+	padding-bottom: 30px
+}
+
+section .mac form input
+{
+	width: 565px;
+	height: 50px;
+	border: 0px;
+	border-bottom: 2px solid black;
+	margin-top:20px;
+	font-size: 18px
+}
+
+section .mac form input:first-child
+{
+	margin-top:0px;
+}
+
+section .mac form input:last-child
+{
+	width: 177px;
+	border: 2px solid black
+}
+
+
+
+
+
+

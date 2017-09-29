@@ -1,0 +1,161 @@
+
+.margin_r
+{
+	margin-right: 0px;
+}
+
+.margin_l
+{
+	margin-left: 0px;
+}
+
+.margin_t
+{
+	margin-top:0px;
+}
+
+.margin_b
+{
+	margin-bottom: 0px;
+}
+
+
+section 
+{
+	height: 1490px;
+}
+
+section ul
+{
+	height: 22px
+}
+
+section ul li
+{
+	float: left;
+	margin-left: 32px;
+}
+
+section ul li:first-child
+{
+	margin-left: 0px;
+	list-style-type: none
+}
+
+section ul li a
+{
+	text-decoration: none;
+	color:#9b9b9b;
+}
+
+section h2
+{
+	font-size: 72px
+}
+
+section img 
+{
+	height: 370px;
+	width: 370px;
+	margin-right: 28px;
+	margin-top:30px
+}
+
+
+section .mac {
+    height: 382px;
+    margin-top: 60px;
+    width: 100%;
+    padding-top:61px;
+}
+
+
+section .mac .show_work
+{
+	width: 514px;
+	height: 382px;
+	background-image:url(../img/ari_1.jpg);
+	position: relative;
+	color:white;
+}
+
+section .show_work:before
+{
+	content:"";
+	width:374px;
+	height: 380px;
+	background-image:url(../img/ari_2.jpg);
+	display: inline-block;
+	left:-374px;
+	top:2px;
+	position: absolute;
+}
+
+ section .show_work h4 ,
+ section .show_work p ,
+ section .show_work button ,
+{
+	margin-left: 3px
+}
+
+section .mac .show_work h4 
+{
+	padding-top: 83px;
+	font-size: 24px
+}
+
+section .mac .show_work p
+{
+	padding-top: 29px;
+	font-size: 14px;
+}
+
+section .mac .show_work .button
+{
+	height: 49px;
+	width:191px;
+	display: inline-block;
+	 line-height: 45px;
+	 border: 1px solid white;
+	 text-align: center;
+	 text-decoration: none;
+	 color:white;
+	 margin-top:98px;
+}
+
+section .mac form
+{
+	width: 565px;
+	height: 311px;
+	margin-right: 3px;
+	margin-top:50px;
+}
+
+section .mac form h4
+{
+	font-size: 36px;
+	padding-bottom: 30px
+}
+
+section .mac form input
+{
+	width: 565px;
+	height: 50px;
+	border: 0px;
+	border-bottom: 2px solid black;
+	margin-top:20px;
+	font-size: 18px
+}
+
+section .mac form input:first-child
+{
+	margin-top:0px;
+}
+
+section .mac form input:last-child
+{
+	width: 177px;
+	border: 2px solid black
+}
+
+
