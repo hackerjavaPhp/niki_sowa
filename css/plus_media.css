@@ -1,0 +1,364 @@
+
+/*---------------------------------------------header----------------------------------------------*/
+
+@media screen and (min-width: 980px) and (max-width: 1174px)
+{
+	header
+	{
+		/* background-color: red */
+	}
+
+	header .container
+	{
+		width: 980px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		margin-left: 74px
+	}
+
+	header .Order
+	{
+		right: 32px
+	}
+}
+
+@media screen and (min-width: 820px) and (max-width: 980px)
+{
+	header
+	{
+		/* background-color: red; */
+	}
+
+	header .container
+	{
+		width: 820px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 820px)
+{
+	header
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	header .container
+	{
+		width: 620px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		position: relative;
+		left: 74px
+	}
+
+	header .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 620px)
+{
+	header
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	header .container
+	{
+		width: 410px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	header .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	header
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	header .container
+	{
+		width: 300px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	header .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++footer++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (min-width: 980px) and (max-width: 1174px)
+{
+	footer
+	{
+		/* background-color: red */
+	}
+
+	footer .container
+	{
+		width: 980px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		margin-left: 74px
+	}
+
+	footer .Order
+	{
+		right: 32px
+	}
+}
+
+@media screen and (min-width: 820px) and (max-width: 980px)
+{
+	footer
+	{
+		/* background-color: red; */
+	}
+
+	footer .container
+	{
+		width: 820px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 820px)
+{
+	footer
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	footer .container
+	{
+		width: 620px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		position: relative;
+		left: 74px
+	}
+
+	footer .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 620px)
+{
+	footer
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	footer .container
+	{
+		width: 410px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	footer .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	footer
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	footer .container
+	{
+		width: 300px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	footer .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 980px) and (max-width: 1174px)
+{	
+
+	.container
+	{
+		background-color: green;
+		width: 830px;
+	}
+
+	#subject_problem_decision .container
+	{
+		width: 830px;
+		margin: 0 auto;
+		background-color: red;
+		height: 100%
+	}
+
+	#subject_problem_decision .problem
+	{
+		/*background-color: blue;*/
+		width: 100%;
+		height: 1416px;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position: top right;
+	}
+
+	#subject_problem_decision .problem .rate .block_rate {
+	    width: 269px;
+	    height: 414px;
+	    float: left;
+	    margin-left: 4px;
+	}
+
+	#subject_problem_decision .problem .rate .info {
+	    /*background-color: green;*/
+	    width: 820px;
+	}
+
+
+
+
+	#subject_problem_decision .problem .rate::before {
+
+		    content: "";
+		    position: absolute;
+		    bottom: 0px;
+		    height: 14px;
+		    width: 1246px;
+		    background-color: #ad0000;
+		    right: 48px;
+
+		}
+
+
+	#subject_problem_decision .problem .rate_2 .block_rate {
+	    width: 269px;
+	    height: 414px;
+	    float: left;
+	    margin-left: 4px;
+	}	
+
+	
+}
