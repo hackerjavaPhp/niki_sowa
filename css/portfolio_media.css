@@ -1,0 +1,762 @@
+
+/*---------------------------------------------header----------------------------------------------*/
+
+@media screen and (min-width: 980px) and (max-width: 1174px)
+{
+	header
+	{
+		/* background-color: red */
+	}
+
+	header .container
+	{
+		width: 980px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		margin-left: 74px
+	}
+
+	header .Order
+	{
+		right: 32px
+	}
+}
+
+@media screen and (min-width: 820px) and (max-width: 980px)
+{
+	header
+	{
+		/* background-color: red; */
+	}
+
+	header .container
+	{
+		width: 820px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 820px)
+{
+	header
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	header .container
+	{
+		width: 620px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		position: relative;
+		left: 74px
+	}
+
+	header .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 620px)
+{
+	header
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	header .container
+	{
+		width: 410px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	header .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	header
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	header .container
+	{
+		width: 300px
+	}
+
+	header .str_hed
+	{
+		display: none
+	}
+
+	header img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	header .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++footer++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (min-width: 980px) and (max-width: 1174px)
+{
+	footer
+	{
+		/* background-color: red */
+	}
+
+	footer .container
+	{
+		width: 980px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		margin-left: 74px
+	}
+
+	footer .Order
+	{
+		right: 32px
+	}
+}
+
+@media screen and (min-width: 820px) and (max-width: 980px)
+{
+	footer
+	{
+		/* background-color: red; */
+	}
+
+	footer .container
+	{
+		width: 820px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 820px)
+{
+	footer
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	footer .container
+	{
+		width: 620px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		position: relative;
+		left: 74px
+	}
+
+	footer .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 620px)
+{
+	footer
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	footer .container
+	{
+		width: 410px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	footer .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	footer
+	{
+		/* background-color: red; */
+		 height: 260px;
+		 position: relative;
+	}
+
+	footer .container
+	{
+		width: 300px
+	}
+
+	footer .str_hed
+	{
+		display: none
+	}
+
+	footer img
+	{
+		position: relative;
+		left: 0px;
+		top: 34px;
+		width: 100%
+	}
+
+	footer .Order
+	{
+		margin: 0 auto;
+		float: none
+	}
+}
+
+
+
+@media screen and (min-width: 980px) and (max-width: 1174px)
+{
+	section .container {
+    margin: 0 auto;
+    width: 980px;
+	}
+
+	section 
+	{
+		/*background-color: red;*/
+		text-align: center;
+		height: 1761px;
+	}
+
+	h2
+	{
+		padding-bottom: 22px;
+	}
+
+	section ul {
+	    height: 22px;
+	    margin-left: 73px;
+	}
+
+	section img 
+	{
+		height: 370px;
+		width: 370px;
+		margin-right: 0px;
+		margin-top:0px;
+	}
+
+	section .info h3
+	{
+		padding-top: 18px
+	}
+
+	section .mac form input {
+	    width: 392px;
+	    height: 50px;
+	    border: 0px;
+	    border-bottom: 2px solid black;
+	    margin-top: 20px;
+	    font-size: 18px;
+	}
+
+	section .mac form {
+	    width: 443px;
+	    height: 311px;
+	    margin-right: 3px;
+	    margin-top: 50px;
+	}
+
+	section .mac {
+	    height: 382px;
+	    margin-top: 11px;
+	    width: 100%;
+	    padding-top: 40px;
+	}
+
+}
+
+
+
+@media screen and (min-width: 820px) and (max-width: 980px)
+{
+	section .container {
+    margin: 0 auto;
+    width: 820px;
+	}
+
+	section 
+	{
+		/*background-color: red;*/
+		text-align: center;
+		height: 1761px;
+	}
+
+	h2
+	{
+		padding-bottom: 22px;
+	}
+
+	section ul {
+	    height: 22px;
+	    /*margin-left: 73px;*/
+	}
+
+	section img 
+	{
+		height: 370px;
+		width: 370px;
+		margin-right: 0px;
+		margin-top:0px;
+	}
+
+	
+	section .info
+	{
+		/*background-color: green;*/
+		float: none;
+		margin: 0 auto;
+		width: 800px;
+		height: 530px;
+
+	}
+
+	section .info .box_info_1:before {
+	    content: "";
+	    position: absolute;
+	    bottom: 410px;
+	    height: 14px;
+	    width: 1246px;
+	    background-color: #ad0000;
+	    right: 0px;
+	}
+
+	section .info h3
+	{
+		padding-top: 18px
+	}
+
+	section .mac {
+	    height: 382px;
+	    margin-top: 11px;
+	    width: 100%;
+	    padding-top: 40px;
+	}
+
+	section .mac .show_work {
+	    width: 443px;
+	    height: 382px;
+	    background-image: url(../img/ari_1.jpg);
+	    position: relative;
+	    color: white;
+	}
+
+	section .mac form input {
+	    width: 290px;
+	    height: 50px;
+	    border: 0px;
+	    border-bottom: 2px solid black;
+	    margin-top: 20px;
+	    font-size: 18px;
+	}
+
+	section .mac form {
+	    width: 353px;
+	    height: 311px;
+	    margin-right: 3px;
+	    margin-top: 50px;
+	}
+
+}
+
+@media screen and (min-width: 620px) and (max-width: 820px)
+{
+	section .container {
+    margin: 0 auto;
+    width: 620px;
+	}
+
+	section {
+	    /*background-color: red;*/
+	    text-align: center;
+	       height: 3268px;
+	}
+
+	section ul
+	{
+	  margin-left: 213px;
+	}
+
+	section h2
+	{
+		font-size: 46px;
+		padding-top:19px;
+	}
+
+	section img
+	{
+		margin: 7px 0px;
+		position: relative;
+	}
+
+
+	section .info h3
+	{
+		padding-top: 18px
+	}
+
+	section .mac {
+	    height: 382px;
+	    margin-top: 11px;
+	    width: 100%;
+	    padding-top: 40px;
+	}
+
+
+	section .mac .show_work {
+	    width: 515px;
+	    height: 382px;
+	    background-image: url(../img/ari_1.jpg);
+	    position: relative;
+	    /*color: white;*/
+	}
+
+	section .mac form input {
+	    width: 290px;
+	    height: 50px;
+	    border: 0px;
+	    border-bottom: 2px solid black;
+	    margin-top: 20px;
+	    font-size: 18px;
+	}
+
+	section .mac form {
+	    width: 353px;
+	    height: 311px;
+	}
+
+	section ul {
+	    height: 22px;
+	    margin-left: 149px;
+	}	
+
+	section .mac {
+    height: 752px;
+    margin-top: 11px;
+    width: 100%;
+    padding-top: 40px;
+    /*background: red;*/
+	}
+
+	
+	section .mac form {
+	    width: 355px;
+	    height: 316px;
+	    margin-right: 132px;
+	    margin-top: 26px;
+	    /*background: blue;*/
+	    position: relative;
+	}
+
+	section .mac form h4 {
+    font-size: 36px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 620px)
+{
+	section .container {
+    margin: 0 auto;
+    width: 410px;
+	}
+
+	section {
+	    /*background-color: red;*/
+	    text-align: center;
+	    height:3193px
+	}
+
+	section ul
+	{
+	  margin-left: 213px;
+	}
+
+	section h2
+	{
+		font-size: 46px;
+		padding-top:19px;
+	}
+
+	section img
+	{
+		margin: 7px 0px;
+		position: relative;
+	}
+
+
+	section .info h3
+	{
+		padding-top: 18px
+	}
+
+	section .mac {
+	    height: 382px;
+	    margin-top: 11px;
+	    width: 100%;
+	    padding-top: 40px;
+	}
+
+	section .mac .show_work {
+	    width: 385px;
+	    height: 382px;
+	    background-image: url(../img/ari_1.jpg);
+	    position: relative;
+	    /* color: white; */
+	}
+
+	section .mac form input {
+	    width: 290px;
+	    height: 50px;
+	    border: 0px;
+	    border-bottom: 2px solid black;
+	    margin-top: 20px;
+	    font-size: 18px;
+	}
+
+	section .mac form {
+	    width: 353px;
+	    height: 311px;
+	}
+
+	section ul {
+	    height: 22px;
+	    margin-left: 38px;
+	}	
+
+	section .mac {
+    height: 752px;
+    margin-top: 11px;
+    width: 100%;
+    padding-top: 40px;
+    /*background: red;*/
+	}
+
+	section .mac form h4 {
+    font-size: 36px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+	}
+
+	
+	section .mac form {
+    width: 400px;
+    height: 316px;
+    /* margin-right: 132px; */
+    margin-top: 26px;
+    /* background: blue; */
+    position: relative;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	section .container {
+    margin: 0 auto;
+    width: 300px;
+	}
+
+	section {
+	    /*background-color: red;*/
+	    text-align: center;
+	    height: 2781px;
+	}
+
+	section ul
+	{
+	  margin-left: 213px;
+	}
+
+	section h2
+	{
+		font-size: 46px;
+		padding-top:30px;
+	}
+
+	section img
+	{
+		margin: 7px 0px;
+		position: relative;
+		width: 290px;
+		height: 290px
+	}
+
+
+	section .info {
+	    /*background-color: green;*/
+	    float: none;
+	    margin: 0 auto;
+	    width: 300px;
+	    height: 858px;
+	}
+
+
+	section .info h3
+	{
+		padding-top: 18px
+	}
+
+	section .info .box_info_2 a
+	{
+		display: none
+	}
+
+	section .mac {
+	    height: 382px;
+	    margin-top: 11px;
+	    width: 100%;
+	    padding-top: 40px;
+	}
+
+	section .mac .show_work {
+	    width: 300px;
+	    height: 382px;
+	    background-image: url(../img/ari_1.jpg);
+	    position: relative;
+	    /* color: white; */
+	}
+
+	section .mac form input {
+	    width: 290px;
+	    height: 50px;
+	    border: 0px;
+	    border-bottom: 2px solid black;
+	    margin-top: 20px;
+	    font-size: 18px;
+	}
+
+	section .mac form {
+	    width: 353px;
+	    height: 311px;
+	}
+
+	section ul {
+	    height: 0px;
+	    margin-left:67px;
+	}	
+
+
+	section .mac {
+    height: 752px;
+    margin-top: 11px;
+    width: 100%;
+    padding-top: 40px;
+    /*background: red;*/
+	}
+
+	section .mac form h4 {
+    font-size: 28px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+	}
+
+	
+	section .mac form {
+    width: 300px;
+    height: 316px;
+    /* margin-right: 132px; */
+    margin-top: 26px;
+    /* background: blue; */
+    position: relative;
+	}
+}
