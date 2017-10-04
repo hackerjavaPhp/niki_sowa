@@ -303,7 +303,7 @@
 
 	.container
 	{
-		background-color: green;
+		/*background-color: green;*/
 		width: 830px;
 	}
 
@@ -311,7 +311,7 @@
 	{
 		width: 830px;
 		margin: 0 auto;
-		background-color: red;
+		/*background-color: red;*/
 		height: 100%
 	}
 
@@ -360,5 +360,55 @@
 	    margin-left: 4px;
 	}	
 
+
+	aside .rate_4
+	{
+		display: none
+	}
+
+	aside .rate_3, aside .rate_4 {
+	    width: 820px;
+	    height: 249px;
+	    border: 1px solid black;
+	    float: left;
+	}
 	
+	.message
+	{
+		/*background-color: purple;*/
+		height:396px
+	}
+
+	aside .rate_5 .issue span {
+	    font-size: 27px;
+	    margin-left: 43px;
+	    display: inline-block;
+	    margin-top: 33px;
+	}
+
+	aside .rate_5 .issue span {
+	    font-size: 27px;
+	    margin-left: 43px;
+	    display: inline-block;
+	    margin-top: 33px;
+	}
+	
+	aside .rate_5 .issue form {
+	    width: 432px;
+	    /* background-color: red; */
+	    float: right;
+	}
+
+	aside {
+	    /*background-color: red;*/
+	    height: 291px;
+	}
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 980px)
+{
+	
+
+
 }

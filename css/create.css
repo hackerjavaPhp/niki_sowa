@@ -59,13 +59,13 @@ section .info
 {
 	width: 50%;
 	height: 628px;
-    /* background-color: red  */
+     /*background-color: red ;*/
     position: relative;
 }
 
 section .info .box_info_1 
 {
-     /*  background-color: green   */
+       /*background-color: green   */
 }
 
 section .info .box_info_2
@@ -218,7 +218,81 @@ section .mac form input:last-child
 }
 
 
+/* animation button */
 
+section .mac form
+{
+	width: 565px;
+	height: 311px;
+	margin-right: 3px;
+	margin-top:50px;
+}
 
+section .mac form h4
+{
+	font-size: 36px;
+	padding-bottom: 30px
+}
 
+section .mac form input
+{
+	width: 565px;
+	height: 50px;
+	border: 0px;
+	border-bottom: 2px solid black;
+	margin-top:20px;
+	font-size: 18px
+}
+
+section .mac form input:first-child
+{
+	margin-top:0px;
+}
+
+section .mac form input:last-child
+{
+	width: 177px;
+	border: 2px solid black
+}
+
+section .mac form input {
+    width: 565px;
+    height: 50px;
+    border: 0px;
+        border-bottom-width: 0px;
+        border-bottom-style: none;
+        border-bottom-color: currentcolor;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+section .mac form input[type = 'submit']
+{
+	border: 1px solid black
+}
+
+section .mac form input[type = 'submit']:hover
+{
+	transition: all .5s;
+	background-color: #AD0000;
+	border:1px solid #AD0000;
+	color: white
+}
+
+section .mac .show_work .button:hover{
+    transition: all .5s;
+    background-color: white;
+    color:black;
+}
+
+section .info .box_info_2 button:hover{
+    width: 146px;
+    height: 48px;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 18px;
+    color:white;
+    transition: all .5s;
+}
 
