@@ -12,6 +12,7 @@
 		background-repeat:no-repeat;
 		background-position: top right;
 	}
+
 }
 
 @media screen and (min-width: 820px) and (max-width: 980px)
@@ -1336,6 +1337,42 @@
 	#subject_problem_decision {
     height: 2418px;
   	/*  background-color: #243CED; */
+	}
+
+
+
+	/* line */
+	#subject_problem_decision .problem .city .text::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    bottom: -13px;
+    height: 14px;
+    width: 1246px;
+    right: 76px;
+    background-color: #ad0000;
+	}
+
+	/* span to line fon*/
+	#subject_problem_decision .problem .city .text span {
+	    position: absolute;
+	    bottom: -42px;
+	    font-size: 72px;
+	    right: 74px;
+	    font-size: 20px;
+	}
+
+	
+	#subject_problem_decision .problem .message button:hover {
+    width: 220px;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 18px;
+    /*margin-top: 50px;*/
+    background-color: black;
+    color:white;
+    transition: all .5s;
+    cursor: pointer;
 	}
 
 }

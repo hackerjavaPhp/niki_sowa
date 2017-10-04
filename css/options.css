@@ -1,0 +1,39 @@
+input
+{
+	outline: none
+}
+
+input:hover
+{
+	border-bottom: 1px solid red!important ;
+	transition: all 1s;
+}
+
+#subject_problem_decision .problem .mac .show_work .button:hover {
+    height: 49px;
+    width: 191px;
+    display: inline-block;
+    line-height: 45px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 98px;
+    background-color: white;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+#subject_problem_decision .problem .message button:hover {
+    width: 176px;
+    border: 1px solid black;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: black;
+    color:white;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+

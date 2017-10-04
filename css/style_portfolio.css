@@ -123,6 +123,9 @@ section .mac .show_work .button
 	 margin-top:98px;
 }
 
+
+/* animation button */
+
 section .mac form
 {
 	width: 565px;
@@ -158,4 +161,33 @@ section .mac form input:last-child
 	border: 2px solid black
 }
 
+section .mac form input {
+    width: 565px;
+    height: 50px;
+    border: 0px;
+        border-bottom-width: 0px;
+        border-bottom-style: none;
+        border-bottom-color: currentcolor;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    font-size: 18px;
+}
 
+section .mac form input[type = 'submit']
+{
+	border: 1px solid black
+}
+
+section .mac form input[type = 'submit']:hover
+{
+	transition: all .5s;
+	background-color: #AD0000;
+	border:1px solid #AD0000;
+	color: white
+}
+
+section .mac .show_work .button:hover{
+    transition: all .5s;
+    background-color: white;
+    color:black;
+}
