@@ -1000,3 +1000,251 @@
 
 
 }
+
+@media screen and (min-width: 300px) and (max-width: 410px)
+{
+	.container
+	{
+		/*background-color: green;*/
+		width: 300px;
+		height: 100%
+	}
+
+
+	#subject_problem_decision .problem h2 {
+        font-size: 37px;
+        margin-left: 15px;
+	}
+
+	#subject_problem_decision .problem .rate h4 {
+	    font-size: 24px;
+	    padding-top: 33px;
+	    margin-left: 15px;
+	}
+
+	#subject_problem_decision .problem ul {
+	    height: 22px;
+	    margin-left: 15px;
+	}
+
+	#subject_problem_decision .container
+	{
+		width: 300px;
+		margin: 0 auto;
+		/*background-color: red;*/
+		height: 100%
+	}
+
+	#subject_problem_decision {
+	    height: 3121px;
+	    /*background-color: #ccc;*/
+	}
+
+	.p_mar
+	{
+		margin-left: 15px
+	}
+
+	#subject_problem_decision .problem
+	{
+		/*background-color: red;*/
+		width: 100%;
+		height: 1416px;
+		background-image:none;
+		background-repeat:no-repeat;
+		background-position: top right;
+	}
+
+	#subject_problem_decision .problem .rate {
+	    height: 1556px;
+	    /*background-color: blue;*/
+	    width: 300px;
+	    position: relative;
+	}
+
+
+	#subject_problem_decision .problem .rate .block_rate {
+	    width: 269px;
+	    height: 414px;
+	    float: left;
+	}
+
+	#subject_problem_decision .problem .rate .block_rate,
+	#subject_problem_decision .problem .rate .block_rate_non {
+	    border: 1px solid black;
+	    margin-top: 21px;
+	    margin-left: 15px;
+	}
+
+	#subject_problem_decision .problem .rate .info {
+	    /*background-color: green;*/
+	    width: 300px;
+	    height: 200px;
+	}
+
+	#subject_problem_decision .problem .rate .info:after {
+   		display: none
+	}
+
+	#subject_problem_decision .problem .rate::before {
+	    content: "";
+	    position: absolute;
+	    bottom: 0px;
+	    height: 14px;
+	    width: 1246px;
+	    background-color: #ad0000;
+	    right: 68px;
+	}
+
+
+	#subject_problem_decision .problem .rate_2 .block_rate {
+	    width: 269px;
+	    height: 414px;
+	    float: left;
+	    margin-left: 3px;
+	}	
+
+	#subject_problem_decision .problem .rate_2 .info {
+	    /*background-color: green;*/
+	    width: 300px;
+	    margin-left: 5px;
+	}
+
+	.mar_cl
+	{
+		position: relative;
+		left: 0px
+	}
+
+	aside .rate_4
+	{
+		display: none
+	}
+
+	aside .rate_3, aside .rate_4 {
+	    width: 300px;
+	    height: 249px;
+	    border: 1px solid black;
+	    float: left;
+	    /*background-color: red*/
+	}
+	
+	.message
+	{
+		/*background-color: purple;*/
+		height:396px
+	}
+
+	aside .rate_5 .issue span {
+	    font-size: 27px;
+	    margin-left: 43px;
+	    display: inline-block;
+	    margin-top: 33px;
+	}
+
+	aside .rate_5 .issue span {
+	    font-size: 27px;
+	    margin-left: 43px;
+	    display: inline-block;
+	    margin-top: 33px;
+	}
+	
+	aside .rate_5 .issue form {
+	    width: 300px;
+	    /* background-color: red; */
+	    float: right;
+	}
+
+	aside {
+	    /*background-color: red;*/
+	    height: 291px;
+	}
+
+	aside .rate_3, aside .rate_4 {
+	    width: 291px;
+	    height: 249px;
+	    border: 1px solid black;
+	    float: left;
+	    margin-left: 3px;
+	    /*background: red;*/
+	}
+
+
+
+	#subject_problem_decision .problem {
+	    /*background-color: red;*/
+	    width: 100%;
+	    height: 2243px;
+	    background-image: none;
+	    background-repeat: no-repeat;
+	    background-position: top right;
+	}
+
+	#subject_problem_decision .problem .rate_2 {
+	    height: 1536px;
+	    /*background-color: purple;*/
+	    width: 300px;
+	    position: relative;
+	}
+
+	#subject_problem_decision .problem .rate_2 .block_rate {
+	    width: 269px;
+	    height: 414px;
+	    float: left;
+	    margin-left: 15px;
+	}
+
+	#subject_problem_decision .problem .rate_2 .block_rate_non {
+	    border: 1px solid black;
+	    margin-top: 21px;
+	    margin-left: 15px;
+	}
+
+	.message {
+	    /*background-color: purple;*/
+	    height: 469px;
+	}
+
+	aside .rate_5 .issue {
+	    height: 280px;
+	    /*background-color: red;*/
+	}
+
+	aside .rate_5 {
+    /*background-color: green;*/
+    height: 458px;
+	}
+
+	aside .rate_5 .issue span {
+	    font-size: 25px;
+	    margin-left: 15px;
+	    display: inline-block;
+	    margin-top: 33px;
+	}
+
+	aside .rate_5 .issue form {
+	    width: 300px;
+	    /*background-color:#555 ;*/
+	    margin-top:10px;
+	}
+
+	#subject_problem_decision .problem .rate_2 .info {
+	    /*background-color: green;*/
+	    width: 300px;
+	    margin-left: 5px;
+	    height: 222px;
+	}
+
+	#subject_problem_decision {
+	    height: 3227px;
+	    /*background-color: #ccc;*/
+	}	
+
+	aside .rate_5 .issue span {
+	    font-size: 20px;
+	    margin-left: 15px;
+	    display: inline-block;
+	    margin-top: 41px;
+	}
+
+}
