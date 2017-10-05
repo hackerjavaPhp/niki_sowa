@@ -804,7 +804,7 @@
 
 	#subject_problem_decision {
 	    height: 3121px;
-	    background-color: #ccc;
+	    /*background-color: #ccc;*/
 	}
 
 	.p_mar
@@ -930,11 +930,12 @@
 
 
 	aside .rate_3, aside .rate_4 {
-	    width: 620px;
+	    width: 351px;
 	    height: 249px;
 	    border: 1px solid black;
 	    float: left;
-	    /*background-color: red;*/
+	    /*ыbackground-color: red;*/
+	    margin-left: 29px;
 	}
 
 
@@ -950,7 +951,7 @@
 
 	#subject_problem_decision .problem .rate_2 {
 	    height: 1493px;
-	    background-color: purple;
+	    /*background-color: purple;*/
 	    width: 410px;
 	    position: relative;
 	}
@@ -970,12 +971,17 @@
 
 	.message {
 	    /*background-color: purple;*/
-	    height: 404px;
+	    height: 469px;
+	}
+
+	aside .rate_5 .issue {
+	    height: 280px;
+	    /*background-color: red;*/
 	}
 
 	aside .rate_5 {
-	    /*background-color: green;*/
-	    height: 353px;
+    /*background-color: green;*/
+    height: 458px;
 	}
 
 	aside .rate_5 .issue span {
@@ -986,9 +992,11 @@
 	}
 
 	aside .rate_5 .issue form {
-	    width: 273px;
-	    /*background-color: red;*/
-	    float: right;
+	    width: 300px;
+	    /*background-color:#555 ;*/
+	    margin: 0 53px;
+	    margin-top:10px;
 	}
+
 
 }
