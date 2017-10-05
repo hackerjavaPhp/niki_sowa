@@ -772,7 +772,7 @@
 {
 	.container
 	{
-		background-color: green;
+		/*background-color: green;*/
 		width: 410px;
 		height: 100%
 	}
@@ -780,18 +780,18 @@
 
 	#subject_problem_decision .problem h2 {
         font-size: 37px;
-        margin-left: 26px;
+        margin-left: 15px;
 	}
 
 	#subject_problem_decision .problem .rate h4 {
 	    font-size: 24px;
 	    padding-top: 33px;
-	    margin-left: 25px;
+	    margin-left: 15px;
 	}
 
 	#subject_problem_decision .problem ul {
 	    height: 22px;
-	    margin-left: 29px;
+	    margin-left: 15px;
 	}
 
 	#subject_problem_decision .container
@@ -802,9 +802,14 @@
 		height: 100%
 	}
 
+	#subject_problem_decision {
+	    height: 3121px;
+	    background-color: #ccc;
+	}
+
 	.p_mar
 	{
-		margin-left: 26px
+		margin-left: 15px
 	}
 
 	#subject_problem_decision .problem
@@ -817,12 +822,12 @@
 		background-position: top right;
 	}
 
-			#subject_problem_decision .problem .rate {
-		    height: 1120px;
-		    /*background-color: blue;*/
-		    width: 620px;
-		    position: relative;
-		}
+	#subject_problem_decision .problem .rate {
+	    height: 1556px;
+	    /*background-color: blue;*/
+	    width: 410px;
+	    position: relative;
+	}
 
 
 	#subject_problem_decision .problem .rate .block_rate {
@@ -833,16 +838,16 @@
 	}
 
 	#subject_problem_decision .problem .rate .block_rate,
-	 #subject_problem_decision .problem .rate .block_rate_non {
-    border: 1px solid black;
-    margin-top: 21px;
-    margin-left: 26px;
+	#subject_problem_decision .problem .rate .block_rate_non {
+	    border: 1px solid black;
+	    margin-top: 21px;
+	    margin-left: 70px;
 	}
 
 	#subject_problem_decision .problem .rate .info {
 	    /*background-color: green;*/
-	    width: 620px;
-	    height: 182px
+	    width: 410px;
+	    height: 200px;
 	}
 
 	#subject_problem_decision .problem .rate .info:after {
@@ -856,7 +861,7 @@
 	    height: 14px;
 	    width: 1246px;
 	    background-color: #ad0000;
-	    right: 74px;
+	    right: 68px;
 	}
 
 
@@ -869,14 +874,14 @@
 
 	#subject_problem_decision .problem .rate_2 .info {
 	    /*background-color: green;*/
-	    width: 550px;
-	    margin-left: 28px;
+	    width: 400px;
+	    margin-left: 5px;
 	}
 
 	.mar_cl
 	{
 		position: relative;
-		left: 150px
+		left: 0px
 	}
 
 	aside .rate_4
@@ -924,16 +929,6 @@
 	}
 
 
-	#subject_problem_decision .problem .rate::before {
-	    content: "";
-	    position: absolute;
-	    bottom: 0px;
-	    height: 14px;
-	    width: 1246px;
-	    background-color: #ad0000;
-	    right: 173px;
-	}
-
 	aside .rate_3, aside .rate_4 {
 	    width: 620px;
 	    height: 249px;
@@ -942,10 +937,7 @@
 	    /*background-color: red;*/
 	}
 
-	#subject_problem_decision {
-	    height:2245px;
-	    /*background-color: #ccc;*/
-	}
+
 
 	#subject_problem_decision .problem {
 	    /*background-color: red;*/
@@ -957,9 +949,9 @@
 	}
 
 	#subject_problem_decision .problem .rate_2 {
-	    height: 1052px;
-	    /*background-color: purple;*/
-	    width: 620px;
+	    height: 1493px;
+	    background-color: purple;
+	    width: 410px;
 	    position: relative;
 	}
 
@@ -967,13 +959,13 @@
 	    width: 269px;
 	    height: 414px;
 	    float: left;
-	    margin-left: 26px;
+	    margin-left: 71px;
 	}
 
 	#subject_problem_decision .problem .rate_2 .block_rate_non {
 	    border: 1px solid black;
 	    margin-top: 21px;
-	    margin-left: 26px;
+	    margin-left: 70px;
 	}
 
 	.message {
