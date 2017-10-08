@@ -296,3 +296,40 @@ section .info .box_info_2 button:hover{
     transition: all .5s;
 }
 
+section .mac form input[type = 'submit'] {
+    border: 1px solid black;
+    background: white;
+}
+
+
+/* bg options */
+
+section .show_work:before {
+    content: "";
+    width: 374px;
+    height: 380px;
+    background-image: url(../img/ari_2.jpg);
+    display: inline-block;
+    left: -374px;
+    top: 1px;
+    position: absolute;
+}
+
+/* header */
+header .str_hed:after {
+    content: "";
+    width: 63px;
+    height: 19px;
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/line_left.jpg);
+    top: 9px;
+    right: 131px;
+}
+
+header span {
+    display: inline-block;
+    margin-left: 172px;
+    margin-top: 55px;
+    font-size: 21px;
+}
