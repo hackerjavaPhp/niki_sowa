@@ -324,7 +324,7 @@
 	    margin-left: 73px;
 	}
 
-	section img 
+	section .photo 
 	{
 		height: 370px;
 		width: 370px;
@@ -388,7 +388,7 @@
 	    /*margin-left: 73px;*/
 	}
 
-	section img 
+	section .photo
 	{
 		height: 370px;
 		width: 370px;
@@ -479,7 +479,7 @@
 		padding-top:19px;
 	}
 
-	section img
+	section .photo
 	{
 		margin: 7px 0px;
 		position: relative;
@@ -576,7 +576,7 @@
 		padding-top:19px;
 	}
 
-	section img
+	section .photo
 	{
 		margin: 7px 0px;
 		position: relative;
@@ -672,12 +672,13 @@
 		padding-top:30px;
 	}
 
-	section img
+	section .photo
 	{
 		margin: 7px 0px;
 		position: relative;
 		width: 290px;
-		height: 290px
+		height: 290px;
+		background-size: cover
 	}
 
 
