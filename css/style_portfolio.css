@@ -1,7 +1,7 @@
 
 .margin_r
 {
-	margin-right: 0px;
+	margin-right: 0px !important;
 }
 
 .margin_l
@@ -22,7 +22,7 @@
 
 section 
 {
-	height: 1490px;
+	height: 1433px;
 }
 
 section ul
@@ -53,18 +53,32 @@ section h2
 	font-size: 72px
 }
 
-section img 
+section .photo
 {
 	height: 370px;
 	width: 370px;
 	margin-right: 28px;
-	margin-top:30px
+	margin-top:30px;
+	display: inline-block;
+	background:#ad0000;
 }
+
+section	.bg_photo
+{
+	background:url(../img/buketik.jpg);
+}
+
+section	.bg_photo_2
+{
+	background:url(../img/roud.jpg);
+}
+
+
 
 
 section .mac {
     height: 382px;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
     width: 100%;
     padding-top:61px;
 }
@@ -173,9 +187,9 @@ section .mac form input {
     font-size: 18px;
 }
 
-section .mac form input[type = 'submit']
-{
-	border: 1px solid black
+section .mac form input[type = 'submit'] {
+    border: 1px solid black;
+    background: white;
 }
 
 section .mac form input[type = 'submit']:hover
@@ -190,4 +204,35 @@ section .mac .show_work .button:hover{
     transition: all .5s;
     background-color: white;
     color:black;
+}
+
+section .show_work:before {
+    content: "";
+    width: 374px;
+    height: 380px;
+    background-image: url(../img/ari_2.jpg);
+    display: inline-block;
+    left: -374px;
+    top: 1px;
+    position: absolute;
+}
+
+/* header */
+
+header .str_hed:after {
+    content: "";
+    width: 63px;
+    height: 19px;
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/line_left.jpg);
+    top: 9px;
+    right: 97px;
+}
+
+header span {
+    display: inline-block;
+    margin-left: 172px;
+    margin-top: 55px;
+    font-size: 21px;
 }
