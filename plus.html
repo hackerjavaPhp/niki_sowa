@@ -43,7 +43,7 @@
 						и среднего бизнеса</p>
 						<p>Вообщем, как пойдет</p>
 						<p><span class = "many">300р</span><input name = "package
-" type = "radio"></p>
+" type = "radio" value="300"></p>
 					</div>
 					<div class = "block_rate">
 
@@ -53,8 +53,8 @@
 						<p>Подойдет для малого
 						и среднего бизнеса</p>
 						<p>Вообщем, как пойдет</p>
-						<p><span class = "many">300р</span><input name = "package
-" type = "radio"></p>
+						<p><span class = "many">310р</span><input name = "package
+" type = "radio" value="310"></p>
 					</div>
 					<div class = "block_rate mar_cl">
 
@@ -64,8 +64,8 @@
 						<p>Подойдет для малого
 						и среднего бизнеса</p>
 						<p>Вообщем, как пойдет</p>
-						<p><span class = "many">300р</span><input name = "package
-" type = "radio"></p>
+						<p><span class = "many">720р</span><input name = "package
+" type = "radio" value="720"></p>
 					</div>
 				</div>
 				<div class = "rate_2">
@@ -82,7 +82,7 @@
 						<p>Подойдет для малого
 						и среднего бизнеса</p>
 						<p>Вообщем, как пойдет</p>
-						<p><span class = "many">300р</span><input type = "checkbox"></p>
+						<p><span class = "many">300р</span><input name = "SEO" type = "checkbox" value="300"></p>
 					</div>
 					<div class = "block_rate">
 
@@ -92,7 +92,7 @@
 						<p>Подойдет для малого
 						и среднего бизнеса</p>
 						<p>Вообщем, как пойдет</p>
-						<p><span class = "many">300р</span><input type = "checkbox"></p>
+						<p><span class = "many">310р</span><input name = "SMM" type = "checkbox" value = "310"></p>
 					</div>
 					<div class = "block_rate mar_cl">
 
@@ -102,7 +102,7 @@
 						<p>Подойдет для малого
 						и среднего бизнеса</p>
 						<p>Вообщем, как пойдет</p>
-						<p><span class = "many_2">300р</span><input type = "checkbox"></p>
+						<p><span class = "many_2">720р</span><input name = "kr" type = "checkbox" value="720"></p>
 					</div>
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 				<p><span>Лидогенерация</span></p>
 				<p>Расслабьтесь, мы просто приведем вам столько клиентов, сколько
 				вы захотите</p>
-				<p><span class = "many">300р</span><input type = "checkbox"></p>
+				<p><span class = "many">300р</span><input name = "ld" type = "checkbox" value="300"></p>
 			</div>
 			<div class = "rate_4">
 				<h4>Индивидуальный подход</h4>
@@ -162,5 +162,59 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript">
+		var radio = document.querySelectorAll(".rate input[type = 'radio']")
+		  , radio_2 = document.querySelectorAll(".rate_2 input[type = 'checkbox']")
+		  , radio_3 = document.querySelector(".rate_3 input[type = 'checkbox']")
+		  , fs = 0
+		  , fs_2 = 0;
+
+
+
+			for(var i = 0 ; i < radio.length ; i++)
+			{
+				radio[i].onclick = function ()
+				{
+					fs =  Number(this.value);
+					// console.log(fs);
+				}
+			}
+
+			
+			for(var n = 0 ; n < radio.length ; n++)
+					{
+						radio_2[n].onclick = function ()
+						{
+							if(this.checked)
+							{
+							fs_2 = fs_2 + Number(this.value);
+							console.log(fs_2);
+							}
+							else if(!this.checked)
+							{
+								fs_2 = fs_2 - Number(this.value);
+								console.log(fs_2);
+							}
+						}
+					}
+			
+				radio_3.onclick = function()
+				{
+					if(this.checked)
+							{
+							fs_2 = fs_2 + Number(this.value);
+							console.log(fs_2);
+							}
+							else if(!this.checked)
+							{
+								fs_2 = fs_2 - Number(this.value);
+								console.log(fs_2);
+							}
+				}
+
+
+
+
+	</script>
 </body>
 </html>
