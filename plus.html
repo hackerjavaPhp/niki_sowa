@@ -139,8 +139,8 @@
 				 		<li>SEO: 300р</li>
 				 		<li>SMM: 300р</li>
 				 	</ul>
-				 	<span class = "left">
-				 		ИТОГО:910Р
+				 	<span  id = "finish" class = "left">
+				 		ИТОГО:0Р
 				 	</span>
 				 	<form action = "#" method="POST">
 				 		<input placeholder="Имя" type = "text">
@@ -167,7 +167,9 @@
 		  , radio_2 = document.querySelectorAll(".rate_2 input[type = 'checkbox']")
 		  , radio_3 = document.querySelector(".rate_3 input[type = 'checkbox']")
 		  , fs = 0
-		  , fs_2 = 0;
+		  , fs_2 = 0
+		  , fs_f = 0
+		  , finish = document.getElementById("finish");
 
 
 
@@ -176,7 +178,8 @@
 				radio[i].onclick = function ()
 				{
 					fs =  Number(this.value);
-					// console.log(fs);
+					fs_f =fs + fs_2;
+					finish.innerHTML = "ИТОГО:" + fs_f + "Р";
 				}
 			}
 
@@ -188,12 +191,14 @@
 							if(this.checked)
 							{
 							fs_2 = fs_2 + Number(this.value);
-							console.log(fs_2);
+							fs_f =fs + fs_2;
+							finish.innerHTML = "ИТОГО:" + fs_f + "Р";
 							}
 							else if(!this.checked)
 							{
 								fs_2 = fs_2 - Number(this.value);
-								console.log(fs_2);
+								fs_f =fs + fs_2;
+								finish.innerHTML = "ИТОГО:" + fs_f + "Р";
 							}
 						}
 					}
@@ -203,12 +208,14 @@
 					if(this.checked)
 							{
 							fs_2 = fs_2 + Number(this.value);
-							console.log(fs_2);
+							fs_f =fs + fs_2;
+							finish.innerHTML = "ИТОГО:" + fs_f + "Р";
 							}
 							else if(!this.checked)
 							{
 								fs_2 = fs_2 - Number(this.value);
-								console.log(fs_2);
+								fs_f =fs + fs_2;
+								finish.innerHTML = "ИТОГО:" + fs_f + "Р";
 							}
 				}
 
